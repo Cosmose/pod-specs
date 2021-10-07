@@ -1,0 +1,33 @@
+{
+  "name": "CosmoseSDK",
+  "version": "2.0.13",
+  "summary": "Cosmose iOS SDK",
+  "description": "Cosmose SDK is a library used to track user location along with additional information.",
+  "homepage": "https://cosmose.ai",
+  "authors": {
+    "Cosmose Inc.": "support@cosmose.co"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": ""
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": "CosmoseSDK.xcframework",
+  "source": {
+    "http": "https://repo.cosmose.co/repository/ios-sdk-releases/co/cosmose/CosmoseSDK/CosmoseSDK_2.0.13.xcframework.zip",
+    "sha256": "a94c8767e0a4e535ec2d1780d2ea472742c6df1b276780d52e72b5e7568753f9"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "Protobuf": [
+      "~> 3.17"
+    ]
+  }
+}
