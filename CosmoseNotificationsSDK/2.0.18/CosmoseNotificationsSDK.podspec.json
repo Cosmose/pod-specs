@@ -1,0 +1,33 @@
+{
+  "name": "CosmoseNotificationsSDK",
+  "version": "2.0.18",
+  "summary": "Cosmose iOS Notifications SDK",
+  "description": "Cosmose Notifications SDK is a library used to process real-time push notifications.",
+  "homepage": "https://cosmose.ai",
+  "authors": {
+    "Cosmose Inc.": "support@cosmose.co"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": ""
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "CosmoseNotificationsSDK.xcframework",
+  "source": {
+    "http": "https://repo.cosmose.co/repository/ios-sdk-releases/co/cosmose/CosmoseNotificationsSDK/CosmoseNotificationsSDK_2.0.18.xcframework.zip",
+    "sha256": "15c5677e3581e4a8277ed0d9249843ab6c3be9cbd356e7e4aad314ff63203834"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "CosmoseSDK": [
+      "~> 2.0"
+    ]
+  }
+}
