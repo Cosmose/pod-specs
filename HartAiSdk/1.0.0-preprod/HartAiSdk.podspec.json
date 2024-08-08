@@ -1,0 +1,51 @@
+{
+  "name": "HartAiSdk",
+  "version": "1.0.0-preprod",
+  "summary": "HartAi iOS Sdk",
+  "description": "HART AI is a secure data container where the user's preferences, statistics, and interactions are stored in an\nencrypted version. Everything is confirmed on the blockchain so nobody will be able to change it or deny previous\nactions.",
+  "homepage": "https://cosmose.ai",
+  "authors": {
+    "Cosmose Inc.": "support@cosmose.co"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": ""
+  },
+  "source": {
+    "http": "https://repo.cosmose.co/repository/ios-sdk-releases/org/hartai/sdk/HartAiSdk/HartAiSdk_1.0.0-preprod.xcframework.zip",
+    "sha256": "0d15fa0f3b66db59243d340aa755f482aa939b7afb3097d059066ce8ad07452c"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "HartAiSdk.xcframework",
+  "dependencies": {
+    "GTMSessionFetcher": [
+      "~> 2.3.0"
+    ],
+    "GoogleDataTransport": [
+      "~> 9.4.1"
+    ],
+    "GoogleToolboxForMac": [
+      "~> 2.3.2"
+    ],
+    "GoogleUtilities": [
+      "~> 7.13.3"
+    ],
+    "PromisesObjC": [
+      "~> 2.4.0"
+    ],
+    "Protobuf": [
+      "~> 3.27.1"
+    ],
+    "SSZipArchive": [
+      "~> 2.4.3"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
