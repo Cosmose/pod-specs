@@ -1,0 +1,51 @@
+{
+  "name": "HartAiNativePreferencesSdk",
+  "version": "1.0.0",
+  "summary": "HartAi Preferences iOS Sdk",
+  "description": "HART AI Preferences extension",
+  "homepage": "https://cosmose.ai",
+  "authors": {
+    "Cosmose Inc.": "support@cosmose.co"
+  },
+  "license": {
+    "type": "Proprietary",
+    "text": ""
+  },
+  "source": {
+    "http": "https://repo.cosmose.co/repository/ios-sdk-releases/org/hartai/sdk/HartAiNativePreferencesSdk/HartAiNativePreferencesSdk_1.0.0.xcframework.zip",
+    "sha256": "5ea3bcd652c0cdd0d64fe3ec42f8350ac7aee26e8dea97414e5ba96a7a0c367e"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "vendored_frameworks": "HartAiNativePreferencesSdk.xcframework",
+  "dependencies": {
+    "GTMSessionFetcher": [
+      "~> 2.3.0"
+    ],
+    "GoogleDataTransport": [
+      "~> 9.4.1"
+    ],
+    "GoogleToolboxForMac": [
+      "~> 2.3.2"
+    ],
+    "GoogleUtilities": [
+      "~> 7.13.3"
+    ],
+    "PromisesObjC": [
+      "~> 2.4.0"
+    ],
+    "Protobuf": [
+      "~> 3.27.1"
+    ],
+    "SSZipArchive": [
+      "~> 2.4.3"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
