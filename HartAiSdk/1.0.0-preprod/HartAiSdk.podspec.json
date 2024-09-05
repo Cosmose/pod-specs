@@ -13,33 +13,15 @@
   },
   "source": {
     "http": "https://repo.cosmose.co/repository/ios-sdk-releases/org/hartai/sdk/HartAiSdk/HartAiSdk_1.0.0-preprod.xcframework.zip",
-    "sha256": "0d15fa0f3b66db59243d340aa755f482aa939b7afb3097d059066ce8ad07452c"
+    "sha256": "d039158efcdbd3c73993633efca642ce0c52d57647f449ae13775353e1c8f44d"
   },
   "platforms": {
     "ios": "13.0"
   },
   "vendored_frameworks": "HartAiSdk.xcframework",
   "dependencies": {
-    "GTMSessionFetcher": [
-      "~> 2.3.0"
-    ],
-    "GoogleDataTransport": [
-      "~> 9.4.1"
-    ],
-    "GoogleToolboxForMac": [
-      "~> 2.3.2"
-    ],
-    "GoogleUtilities": [
-      "~> 7.13.3"
-    ],
-    "PromisesObjC": [
-      "~> 2.4.0"
-    ],
-    "Protobuf": [
-      "~> 3.27.1"
-    ],
-    "SSZipArchive": [
-      "~> 2.4.3"
+    "HartAiNativePreferencesSdk": [
+      "~> 1.0.0"
     ]
   },
   "pod_target_xcconfig": {
